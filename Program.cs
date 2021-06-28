@@ -19,11 +19,11 @@ namespace lab4_mas4
             var len = int.Parse(Console.ReadLine());
 
             var array = new int[len];
-
+            Random rand = new Random();
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write(i + " Элемент = ");
-                array[i] = int.Parse(Console.ReadLine());
+                 array[i] = rand.Next(-99, 99);
+                Console.WriteLine(i + " Элемент = " + array[i]);
             }
 
 
