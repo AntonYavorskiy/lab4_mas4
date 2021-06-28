@@ -22,7 +22,7 @@ namespace lab4_mas4
             Random rand = new Random();
             for (int i = 0; i < array.Length; i++)
             {
-                 array[i] = rand.Next(-99, 99);
+                 array[i] = rand.Next(-999, 999);
                 Console.WriteLine(i + " Элемент = " + array[i]);
             }
 
